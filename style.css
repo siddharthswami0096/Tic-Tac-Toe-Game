@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: aliceblue;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 196, 1) 94%);
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+}
+
+.game-container {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 22vh);
+    margin-top: 35px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+.box:hover{
+    background-color: rgb(42 ,35 , 42);
+}
+.b-top-left{
+    border-left: none;
+    border-top: none;
+}
+.b-top{
+    border-top: none;
+}
+.b-top-right{
+    border-right: none;
+    border-top: none;
+}
+.b-left{
+    border-left: none;
+}
+.b-right{
+    border-right: none;
+}
+.b-bottom-left{
+    border-bottom: none;
+    border-left: none;
+}
+.b-bottom{
+    border-bottom: none;
+}
+.b-bottom-right{
+    border-bottom: none;
+    border-right: none;
+}
+
+.boxtext {
+    margin-top: 15px;
+    font-size: 9vw;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+
+.game-info{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.textbox{
+    margin-bottom: 50px;
+    font-size: larger;
+}
+.textbox button{
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
+.imgbox{
+    display: none;
+}

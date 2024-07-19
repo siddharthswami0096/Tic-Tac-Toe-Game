@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Poetsen+One&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2>Tic Tac Toe Game</h2>
+    </nav>
+
+    <div class="container">
+        <div class="game-container">
+            <div class="box b-top-left"><span class="boxtext"></span></div>
+            <div class="box b-top"><span class="boxtext"></span></div>
+            <div class="box b-top-right"><span class="boxtext"></span></div>
+            <div class="box b-left"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box b-right"><span class="boxtext"></span></div>
+            <div class="box b-bottom-left"><span class="boxtext"></span></div>
+            <div class="box b-bottom"><span class="boxtext"></span></div>
+            <div class="box b-bottom-right"><span class="boxtext"></span></div>
+        </div>
+
+        <div class="game-info">
+            <div class="textbox">
+                <h2>Welcome to Tic Tac Toe</h2>
+                <span id="info">Turn for <span id="turninfo">X</span></span>
+                <button id="reset">
+                    <h4>Reset</h4>
+                </button>
+            </div>
+            <div class="imgbox">
+                <img src="./excited.gif" alt="Excited Gif">
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
